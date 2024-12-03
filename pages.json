@@ -21,7 +21,7 @@
 		{
 			"path": "pages/ChatInput/ChatInput",
 			"style": {
-				"navigationBarTitleText": "情感分析器",
+				"navigationBarTitleText": "情感分析助手",
 				"app-plus": {
 					"titleNView": {
 						"autoBackButton": true // 启用返回按钮
