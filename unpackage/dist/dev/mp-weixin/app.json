@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/My/Index",
+    "pages/Case/Index",
+    "pages/ChatInput/ChatInput"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "情感分析工具",
+    "navigationBarBackgroundColor": "#ff9c39",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#",
+    "borderStyle": "white",
+    "backgroundColor": "#ff9c39",
+    "list": [
+      {
+        "iconPath": "static/Overview.png",
+        "selectedIconPath": "static/Seleted_Overview.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/Case.png",
+        "pagePath": "pages/Case/Index",
+        "selectedIconPath": "static/Seleted_Case.png",
+        "text": "案例"
+      },
+      {
+        "iconPath": "static/My.png",
+        "pagePath": "pages/My/Index",
+        "selectedIconPath": "static/Selected_My.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

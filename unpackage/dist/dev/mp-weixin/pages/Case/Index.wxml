@@ -1,0 +1,1 @@
+<view><view class="flex"><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="item content-box"><view class="img-box"><image src="{{item.a}}" mode="aspectFill"></image></view><view class="title">{{item.b}}</view><view class="desciption">{{item.c}}</view></view></view></view>
